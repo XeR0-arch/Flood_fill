@@ -591,6 +591,7 @@ int main()
         update_cell(adc, maze1);
         update_maze(true, maze1);
         update_cell(adc, maze);
+        update_maze(false, maze);
 
         // Print maze values (debug)
         printf("\nMaze values:\n");
